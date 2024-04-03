@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+html , body {
+  width: 100%;
+  height: 100%;
+  background-color: #EDD4D4;
+}
+
+#nav {
+  background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+  height: 300px;
+  border-bottom: 1px solid black;
+  background-size: cover;
+  background-position: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 8px black;
+}
+
+#nav input {
+  width: 70%;
+  height: 60px;
+  margin: 60px;
+  border-radius: 10px;
+  background-color: #631212;
+  border: 1px solid #631212;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  padding-left: 10px;
+  position: sticky;
+  top: 60px;
+  left: 15%;
+}
+
+img {
+  width: 159px;
+  height: 147px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 8px black;
+}
+
+img:hover {
+  -webkit-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  transform: scale(1.2);
+  transition: 0s ease;
+}
+
+#coffee-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+#coffee-list h2 {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: medium;
+}
+
+#coffee-house {
+  background-color: #D7A1A1;
+  color: #A52A2A;
+  margin: 80px;
+  padding: 25px;
+  border-radius:1px solid #A52A2A ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px brown;
+  width: 90%;
+}
+
+#coffee-item {
+  background-color: #D7A1A1;
+  color: #A52A2A;
+  margin: 80px;
+  padding: 25px;
+  border-radius:1px solid #A52A2A ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px brown;
+  width: 90%;
+}
+
+ol li {
+  margin: 20px;
+} 
+
+#coffee-item p {
+  margin: 20px;
+}
